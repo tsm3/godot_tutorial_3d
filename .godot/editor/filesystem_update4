@@ -1,8 +1,2 @@
-res://mob.tscn
-res://mob.gd
-res://main.tscn
-res://main.gd
-res://player.tscn
-res://player.gd
-res://ScoreLabel.gd
-res://music_player.tscn
+res://scenes/key.tscn
+res://scripts/BabyKeySquare_NonUV.gd

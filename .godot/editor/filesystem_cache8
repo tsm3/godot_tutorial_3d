@@ -1,12 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705867226
+::res://::1706501367
 default_bus_layout.tres::AudioBusLayout::-1::1705852573::0::1::::<><>::
 default_env.tres::Environment::-1::1705852573::0::1::::<><>::
 Ground.gd::GDScript::-1::1705853150::0::1::::<>StaticBody3D<>::
 icon.png::CompressedTexture2D::2156552947418875706::1606009720::1705852594::1::::<><>::
-main.tscn::PackedScene::211713176741953302::1705854904::0::1::::<><>::res://Ground.gd<>uid://ctcf11gwcgvs4::::res://player.tscn
-player.gd::GDScript::-1::1705854693::0::1::::<>CharacterBody3D<>::
-player.tscn::PackedScene::6110909543500739557::1705854884::0::1::::<><>::uid://dgtye7k3ebkmi::::res://art/player.glb<>res://player.gd
 ::res://art/::1705852595
 body.material::StandardMaterial3D::-1::1605908508::0::1::::<><>::
 eye.material::StandardMaterial3D::-1::1606514142::0::1::::<><>::
@@ -19,3 +16,18 @@ pupil.material::StandardMaterial3D::-1::1606514142::0::1::::<><>::
 ::res://fonts/::1705852594
 LICENSE.txt::TextFile::-1::1605988452::0::1::::<><>::
 Montserrat-Medium.ttf::FontFile::5471370716624316803::1323702000::1705852594::1::::<><>::
+::res://key_assets/::1706472137
+::res://key_assets/Models/::1706472241
+BabyKeyCircle_NonUV.fbx::PackedScene::6289020125529920943::1706472137::1706472241::1::::<><>::
+BabyKeySquare_NonUV.fbx::PackedScene::3067944262342267769::1706472137::1706472241::1::::<><>::
+::res://scenes/::1706501367
+key.tscn::PackedScene::6605248357861669952::1706472787::0::1::::<><>::uid://bjyeugnqibs4p::::res://key_assets/Models/BabyKeySquare_NonUV.fbx<>uid://cvupiiqlng7nv::::res://key_assets/Models/BabyKeyCircle_NonUV.fbx
+main.tscn::PackedScene::211713176741953302::1706501365::0::1::::<><>::res://scripts/main.gd<>res://Ground.gd<>uid://ctcf11gwcgvs4::::res://scenes/player.tscn<>uid://cgcub5o8yucjm::::res://scenes/mob.tscn<>uid://cj7mw83kfrtt0::::res://fonts/Montserrat-Medium.ttf<>res://scripts/ScoreLabel.gd
+mob.tscn::PackedScene::5199320909231746054::1706501361::0::1::::<><>::uid://wux7fal2g8em::::res://art/mob.glb<>res://scripts/mob.gd
+music_player.tscn::PackedScene::7983486329855145272::1705870642::0::1::::<><>::uid://i7dbunctae1w::::res://art/House In a Forest Loop.ogg
+player.tscn::PackedScene::6110909543500739557::1706501367::0::1::::<><>::uid://dgtye7k3ebkmi::::res://art/player.glb<>res://scripts/player.gd
+::res://scripts/::1706501367
+main.gd::GDScript::-1::1705870492::0::1::::<>Node<>::
+mob.gd::GDScript::-1::1705871480::0::1::::<>CharacterBody3D<>::
+player.gd::GDScript::-1::1705871373::0::1::::<>CharacterBody3D<>::
+ScoreLabel.gd::GDScript::-1::1705870420::0::1::::<>Label<>::

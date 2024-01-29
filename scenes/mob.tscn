@@ -1,10 +1,13 @@
 [gd_scene load_steps=7 format=3 uid="uid://cgcub5o8yucjm"]
 
 [ext_resource type="PackedScene" uid="uid://wux7fal2g8em" path="res://art/mob.glb" id="1_4h6m2"]
-[ext_resource type="Script" path="res://mob.gd" id="1_oui2l"]
+[ext_resource type="Script" path="res://scripts/mob.gd" id="1_oui2l"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_x2s7l"]
 size = Vector3(2, 1, 2.81088)
+
+[sub_resource type="Animation" id="Animation_hm0xw"]
+length = 0.001
 
 [sub_resource type="Animation" id="Animation_hmne8"]
 resource_name = "float"
@@ -34,9 +37,6 @@ tracks/1/keys = {
 "update": 0,
 "values": [Vector3(0, 0, 0), Vector3(0.139626, 0, 0), Vector3(-0.15708, 0, 0)]
 }
-
-[sub_resource type="Animation" id="Animation_hm0xw"]
-length = 0.001
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_iykj2"]
 _data = {

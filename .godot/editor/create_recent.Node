@@ -1,3 +1,9 @@
+Button
+CheckButton
+Node3D
+CharacterBody3D
+MeshInstance3D
+Node
 AnimationPlayer
 AudioStreamPlayer
 Label
@@ -7,8 +13,3 @@ CollisionShape3D
 Area3D
 Timer
 PathFollow3D
-Path3D
-MeshInstance3D
-Node3D
-VisibleOnScreenNotifier3D
-CharacterBody3D
